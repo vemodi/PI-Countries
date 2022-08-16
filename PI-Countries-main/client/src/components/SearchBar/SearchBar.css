@@ -1,0 +1,36 @@
+.formSearchBar {
+  display: flex;
+  align-content: center;
+  width: 30%;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.inputCountry {
+  width: 300px;
+  height: 32px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.inputButton {
+  background-color: white;
+  background-image: url("../../video_img/lupa.ico");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  position:absolute;
+  border: 1px solid white;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.inputButton:hover {
+  background-color: #d8d7d7 ;
+  color:  #ffffff;
+  border: 1px solid white;
+}

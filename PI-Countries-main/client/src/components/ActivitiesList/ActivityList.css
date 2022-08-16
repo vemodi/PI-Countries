@@ -1,0 +1,58 @@
+.activityListContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(109, 10%, 60%);
+  min-height:100%;
+  width: 100%;
+  position: absolute ;
+  padding-bottom: 9rem;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.activityCardListContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 4rem 0 4rem 0;
+  
+}
+
+.activityCardList {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  display: flex;
+  width: 20%;
+  height: 15rem;
+  box-shadow: 3px 3px 15px 5px #f89700;
+  
+}
+
+.h3Activity {
+  text-align: start;
+  margin: 10px;
+ 
+}
+
+.h2Activity {
+  text-align: center;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.divActivityContainer {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.noActivities {
+  background-color: hsl(256, 87%, 12%);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  
+}
